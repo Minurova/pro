@@ -15,7 +15,7 @@ module.exports = env => {
 
   return {
     mode: env.MODE,
-    entry: path.resolve(__dirname, './src/index.js'),
+    entry: path.resolve(__dirname, './src/index.tsx'),
     devtool: isDev ? 'inline-source-map' : false,
     devServer: isDev
       ? {
